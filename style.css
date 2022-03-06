@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #fff;
+}
+header,
+section{
+    width: 1200px;
+}
+header{
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+header .left{
+    display:  flex;
+}
+header h2{
+    text-align: left;
+}
+header i{
+    font-size: 12px;
+    margin-right: 10px;
+}
+header ul{
+    list-style: none;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+header ul li{
+    display: inline;
+    padding:  0 20px;
+    font-size: 20px;
+    color: rgb(146,143,143);
+}
+header ul li i{
+    font-size: 18px;
+}
+header button{
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: 2px solid transparent;
+    background: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+}
+header button.active{
+    background: rgb(0,60,255);
+    color: #fff;
+}
+header button:hover{
+    border: 2px solid rgb(0,60,255);
+    background: #fff;
+    color: rgb(0,60,255);
+}
+section{
+    margin: 0 auto;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 300px;
+}
+section h6{
+    font-size: 16px;
+    color: rgb(0,60,255);
+}
+section h6 i{
+    font-size: 7px;
+    margin-right: 5px;
+}
+section h1{
+    font-size: 42px;
+    margin: 20px 0px;
+    width: 550px;
+    font-family: 'Courier New', Courier, monospace;
+}
+section p{
+    font-size: 20px;
+    width: 450px;
+    color: rgb(53,53,53);
+}
+section .content img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+h3,
+h4{
+    margin-left: 60px;
+}
+h3{
+    margin-top: -46px;
+}
+h4{
+    color: rgb(88,88,88);
+}
+section .img img{
+    width: 350px;
+    height: 450px;
+    float: right;
+    margin-top: 100px;
+    object-fit: cover;
+}
